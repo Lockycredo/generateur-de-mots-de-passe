@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: url("iop.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.8);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ff0096;
+}
+
+input, button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #ff0096;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff3366;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
